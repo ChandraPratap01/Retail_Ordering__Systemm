@@ -419,8 +419,8 @@ export default instance;
 **POST `/api/auth/register` — Sample Request**
 ```json
 {
-  "name": "Gopal",
-  "email": "gopal@example.com",
+  "name": "Chandra",
+  "email": "chandra@example.com",
   "password": "Password@123",
   "phone": "9876543210",
   "address": "PSIT, Kanpur"
@@ -430,7 +430,7 @@ export default instance;
 **POST `/api/auth/login` — Sample Request**
 ```json
 {
-  "email": "gopal@example.com",
+  "email": "chandral@example.com",
   "password": "Password@123"
 }
 ```
@@ -443,7 +443,7 @@ export default instance;
   "data": {
     "token": "eyJhbGciOiJIUzI1NiJ9...",
     "userId": 1,
-    "name": "Gopal",
+    "name": "chandra",
     "role": "CUSTOMER"
   }
 }
@@ -797,7 +797,7 @@ instance.interceptors.request.use(config => {
 
 ## 👨‍💻 Author
 
-**Gopal**
+**Chandra**
 Final Year B.Tech — Computer Science
 Pranveer Singh Institute of Technology (PSIT), Kanpur | CGPA: 8.0
 
